@@ -3,7 +3,7 @@ require 'pry'
 # Write a speak_to_grandma method.
 
 def speak_to_grandma(phrase)
-  binding.pry
+  # binding.pry
   if phrase == phrase.downcase
     return "HUH?! SPEAK UP, SONNY!"
   elsif phrase.upcase
