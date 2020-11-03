@@ -4,12 +4,12 @@ require 'pry'
 
 def speak_to_grandma(phrase)
   # binding.pry
-  if phrase.downcase
-    return "HUH?! SPEAK UP, SONNY!"
+  if phrase == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!" 
   elsif phrase.upcase
     return "NO, NOT SINCE 1938!"
-  else phrase == "I LOVE YOU GRANDMA!"
-    return "I LOVE YOU TOO PUMPKIN!" 
+  else phrase.downcase
+    return "HUH?! SPEAK UP, SONNY!"
   end
 end
     
